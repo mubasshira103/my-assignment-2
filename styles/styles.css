@@ -11,3 +11,452 @@
     box-sizing: border-box;
 
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-link {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link li {
+    list-style: none;
+
+
+}
+
+.nav-link li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-contact {
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 60px;
+    border: none;
+}
+
+.hamburger {
+    display: none;
+
+}
+
+.orange {
+    color: #FEA301;
+}
+
+.blue {
+    color: #01ACFD;
+}
+
+.dark-blue {
+    color: #05D4DF;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.banner-content h2 {
+    font-family: Quicksand;
+    font-size: 3.5rem;
+    font-weight: 700;
+
+
+}
+
+.banner-content p {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 20px 0px;
+
+}
+
+.btn {
+    padding: 10px 40px;
+    margin: 10px;
+
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+/* curriculum */
+.curriculum {
+    margin: 0px 100px;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-texts {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 70px auto;
+
+}
+
+marquee {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 70px auto;
+
+
+    background-color: #fff8e1;
+    padding: 15px;
+    border-top: 2px solid #ffd54f;
+    border-bottom: 2px solid #ffd54f;
+
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.curriculum-card {
+    max-width: 350px;
+    height: 450px;
+    text-align: center;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.curriculum-card h3 {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+
+}
+
+.curriculum-card p {
+    color: rgb(128, 128, 128);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 30px 0px;
+
+}
+
+.curriculum-card a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(135, 0, 255);
+}
+
+.angle {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: none;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+}
+
+.btn-angle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* stories style */
+.stories {
+
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stories-container {
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.big-stories-content {
+    padding: 50px;
+}
+
+.big-stories-content h3 {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* padding: 50px; */
+}
+
+.big-stories-content p {
+    color: rgb(128, 128, 128);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 50px;
+
+}
+
+.big-stories-img img {
+    width: 540px;
+    height: 337px;
+    /* width: 100%;
+    height: 50%; */
+    border-radius: 16px 16px 0px 0px;
+}
+
+.big-stories {
+    width: 540.27px;
+    height: 630.52px;
+    position: relative;
+
+
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.dates {
+    border-radius: 47.93px;
+    padding: 15px 30px;
+    color: white;
+
+    background: rgb(60, 216, 232);
+
+
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.date {
+    position: absolute;
+    top: 310px;
+    left: 50px;
+}
+
+/* small-card */
+.small-card {
+    max-width: 290.69px;
+    height: 301.61px;
+    position: relative;
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.small-card img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.small-card p {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 40px 35px 35px 35px;
+
+}
+
+.small-dates {
+    padding: 8px 16px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 47.93px;
+
+    background: rgb(149, 178, 38);
+
+}
+
+.small-date {
+    position: absolute;
+    top: 160px;
+    left: 35px;
+}
+
+.small-stories {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.stories-btn {
+    text-align: center;
+    padding: 50px;
+}
+
+.subtext {
+    /* display: flex;
+    justify-content: space-around; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: black;
+    padding: 100px;
+    color: white;
+}
+
+.footer-mid li>a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+
+.footer-mid ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+    color: white;
+}
+
+.footer-left-title {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* margin: 20px 0px; */
+}
+
+/* .footer-mid {
+    font-size: 15.09px;
+    font-weight: 500;
+    padding: 50px 0px;
+    color: white;
+
+} */
+.main-text {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .nav-link,
+    .btn-contact1 {
+        display: none;
+    }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        gap: 10px;
+
+
+        align-items: center;
+        padding: 0px 30px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 30px;
+    }
+
+    .card-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .curriculum {
+        margin: 0px 30px;
+    }
+
+    .big-stories {
+        display: none;
+    }
+
+    .subtext {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 130px;
+    }
+
+    .small-card p {
+
+        padding: 40px 20px;
+    }
+
+    .stories-container {
+        margin: 50px 15px 50px 15px;
+    }
+
+    .small-date {
+        position: absolute;
+        top: 140px;
+        left: 20px;
+    }
+}
